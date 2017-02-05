@@ -4,13 +4,13 @@ OBJS = main.o
 OBJS += compat.o
 EXEC_SUFFIX = .exe
 CC = mingw32-gcc
-CFLAGS = -DCOMPAT_MINGW_MS_VSNPRINTF -Wall -O3
+CFLAGS = -DCOMPAT_MINGW_MS_VSNPRINTF -Wall -O3 -I.
 LDFLAGS = -L.
 RM = del
 
 ## For Mac OS X (Fink)
 #EXEC_SUFFIX =
-#CFLAGS = -Wall -O3
+#CFLAGS = -Wall -O3 -I/sw/include/libusb-1.0
 #LDFLAGS = -L/sw/lib
 #RM = /bin/rm -f
 

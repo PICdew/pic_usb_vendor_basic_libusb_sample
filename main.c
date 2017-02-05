@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <stdlib.h>		// exit()
 #include <unistd.h>		// sleep()
-#include "libusb.h"
+#include <libusb.h>
 
 unsigned char buf_in[LEN_BUF];
 unsigned char buf_out[LEN_BUF];
