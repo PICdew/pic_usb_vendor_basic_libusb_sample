@@ -1,4 +1,4 @@
-pic_usb_vendor_basic_libusb_sample
+# pic_usb_vendor_basic_libusb_sample
 
 Small USB sample code which runs with Microchip PIC example (vendor_example)
 
